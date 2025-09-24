@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "ecosystems",
+  "info": {
+    "singularName": "ecosystem",
+    "pluralName": "ecosystems",
+    "displayName": "ecosystem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "feature_list": {
+      "type": "component",
+      "component": "shared.feature-list",
+      "repeatable": true
+    },
+    "ecosystem_cards": {
+      "type": "component",
+      "component": "shared.cards",
+      "repeatable": false
+    },
+    "button_ext": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

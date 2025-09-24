@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_forms",
+  "info": {
+    "singularName": "contact-form",
+    "pluralName": "contact-forms",
+    "displayName": "contact-form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "text"
+    },
+    "lastname": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string",
+      "regex": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+    },
+    "phoneno": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

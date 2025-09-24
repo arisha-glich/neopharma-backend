@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_membership_sections",
+  "info": {
+    "displayName": "membership_section"
+  },
+  "options": {},
+  "attributes": {
+    "membership_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

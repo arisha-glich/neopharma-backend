@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_products",
+  "info": {
+    "displayName": "products"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "ctaLabel": {
+      "type": "text"
+    },
+    "ctaLink": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

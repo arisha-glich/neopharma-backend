@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_distributor_sections",
+  "info": {
+    "displayName": "distributor_section"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "shared.cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

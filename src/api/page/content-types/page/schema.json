@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "isForm": {
+      "type": "boolean"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "section.sections-header",
+        "section.sections-hero",
+        "section.sections-trial",
+        "section.sections-neovault-green",
+        "section.sections-impairment-testing",
+        "section.sections-blue-bg",
+        "section.sections-feature-list",
+        "section.sections-card-grid",
+        "section.cards",
+        "section.sections-content-block",
+        "section.sections-news-list",
+        "section.shared-news-item",
+        "shared.sections-content-blocks",
+        "shared.sections-trial",
+        "shared.shared-metadata",
+        "shared.shared-details",
+        "shared.feature-list",
+        "shared.featuress",
+        "section.sections-product-cards",
+        "section.sections-enablement-benefits",
+        "shared.slider",
+        "shared.seo",
+        "shared.sections",
+        "shared.rich-text",
+        "shared.quote",
+        "shared.media",
+        "shared.feature",
+        "shared.choose",
+        "shared.cards",
+        "shared.blocks",
+        "shared.advantage-card",
+        "shared.products",
+        "section.slider",
+        "section.list-item",
+        "shared.section-neovault-section",
+        "shared.exchange-flow-section",
+        "shared.slider-section",
+        "shared.section-employer-result",
+        "section.slider-section",
+        "section.distributor-section",
+        "shared.product-section",
+        "shared.enablement-section",
+        "shared.vision-mission-section",
+        "shared.executive-card-section",
+        "shared.certification-section",
+        "shared.membership-section"
+      ]
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog.blog",
+      "mappedBy": "pages"
+    }
+  }
+}

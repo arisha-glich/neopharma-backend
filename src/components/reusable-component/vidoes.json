@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_reusable_component_vidoes",
+  "info": {
+    "displayName": "vidoes"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "Tittle": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

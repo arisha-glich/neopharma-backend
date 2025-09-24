@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_enablement_sections",
+  "info": {
+    "displayName": "enablement_section"
+  },
+  "options": {},
+  "attributes": {
+    "enablement_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

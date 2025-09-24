@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_sections_news_lists",
+  "info": {
+    "displayName": "sections.newsList"
+  },
+  "options": {},
+  "attributes": {
+    "newsItem": {
+      "type": "component",
+      "component": "section.shared-news-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

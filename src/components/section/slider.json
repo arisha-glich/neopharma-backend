@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_sliders",
+  "info": {
+    "displayName": "slider"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hasBackground": {
+      "type": "boolean"
+    },
+    "Listitem": {
+      "type": "component",
+      "component": "section.list-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

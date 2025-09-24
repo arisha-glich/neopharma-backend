@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_executive_card_sections",
+  "info": {
+    "displayName": "executive_card_section"
+  },
+  "options": {},
+  "attributes": {
+    "executive_card_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

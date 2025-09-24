@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "enablements",
+  "info": {
+    "singularName": "enablement",
+    "pluralName": "enablements",
+    "displayName": "Enablement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Enablement": {
+      "type": "component",
+      "component": "section.sections-enablement-benefits",
+      "repeatable": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "tittle": {
+      "type": "string",
+      "default": "Enablement"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "buttonurl": {
+      "type": "string"
+    }
+  }
+}

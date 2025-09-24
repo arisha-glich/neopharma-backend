@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_sections_content_blocks",
+  "info": {
+    "displayName": "sections.contentBlocks"
+  },
+  "options": {},
+  "attributes": {
+    "blocks": {
+      "type": "component",
+      "component": "shared.blocks",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

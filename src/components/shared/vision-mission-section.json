@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_vision_mission_sections",
+  "info": {
+    "displayName": "vision_mission_section"
+  },
+  "options": {},
+  "attributes": {
+    "vision_mission_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

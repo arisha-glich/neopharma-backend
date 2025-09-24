@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_sections_impairment_testings",
+  "info": {
+    "displayName": "sections.impairmentTesting"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "title_ul": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

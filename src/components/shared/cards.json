@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_cards",
+  "info": {
+    "displayName": "Cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        " 'clipboard-list': ClipboardList,",
+        "  'history': History,",
+        "  'lightbulb': Lightbulb,",
+        "  'file-text': FileText,",
+        "  'flask-conical': FlaskConical,",
+        "  'smartphone': Smartphone,",
+        "  'scan-search': ScanSearch,",
+        " 'user-square': UserSquare,",
+        "  'refresh-ccw': RefreshCcw,",
+        "  'boxes': Boxes,",
+        "  'list-checks': ListChecks,",
+        "  'message-circle': MessageCircle,",
+        "  'columns': Columns,"
+      ]
+    }
+  },
+  "config": {}
+}

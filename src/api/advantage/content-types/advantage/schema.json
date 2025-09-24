@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "advantages",
+  "info": {
+    "singularName": "advantage",
+    "pluralName": "advantages",
+    "displayName": "Advantage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "advantage_card": {
+      "type": "component",
+      "component": "shared.advantage-card",
+      "repeatable": true
+    }
+  }
+}

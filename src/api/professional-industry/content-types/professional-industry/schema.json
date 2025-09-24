@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "professional_industries",
+  "info": {
+    "singularName": "professional-industry",
+    "pluralName": "professional-industries",
+    "displayName": "professional-industry"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "reusable-component.cards",
+      "repeatable": true
+    }
+  }
+}

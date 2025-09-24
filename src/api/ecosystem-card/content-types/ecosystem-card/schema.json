@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "ecosystem_cards",
+  "info": {
+    "singularName": "ecosystem-card",
+    "pluralName": "ecosystem-cards",
+    "displayName": "ecosystem-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

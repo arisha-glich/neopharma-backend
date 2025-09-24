@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_sections_enablement_benefits",
+  "info": {
+    "displayName": "sections.enablementBenefits"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "component": "shared.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

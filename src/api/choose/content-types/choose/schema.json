@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "chooses",
+  "info": {
+    "singularName": "choose",
+    "pluralName": "chooses",
+    "displayName": "choose"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Feature": {
+      "type": "component",
+      "component": "shared.featuress",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_exchange_flow_sections",
+  "info": {
+    "displayName": "exchange_flow_section"
+  },
+  "options": {},
+  "attributes": {
+    "exchange_flow_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_advantage_cards",
+  "info": {
+    "displayName": "advantage_card"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "feature_list": {
+      "type": "component",
+      "component": "shared.feature-list",
+      "repeatable": true
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reverse": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_product_sections",
+  "info": {
+    "displayName": "product_section"
+  },
+  "options": {},
+  "attributes": {
+    "product_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

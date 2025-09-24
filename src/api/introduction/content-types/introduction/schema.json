@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "introductions",
+  "info": {
+    "singularName": "introduction",
+    "pluralName": "introductions",
+    "displayName": "introduction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tagline": {
+      "type": "string",
+      "default": "Introduction"
+    },
+    "Heading": {
+      "type": "string",
+      "default": "Introducing"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "string",
+      "default": "Rich Text"
+    },
+    "Button": {
+      "type": "string",
+      "default": "Let’s Get Started Now"
+    },
+    "Buttonlink": {
+      "type": "string",
+      "default": "/get-started"
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

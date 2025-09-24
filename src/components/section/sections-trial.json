@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_sections_trials",
+  "info": {
+    "displayName": "sections.trial"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_slider_sections",
+  "info": {
+    "displayName": "slider_section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "feature_list": {
+      "type": "component",
+      "component": "shared.feature-list",
+      "repeatable": true
+    },
+    "hasBackground": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

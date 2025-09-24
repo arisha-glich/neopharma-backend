@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_section_neovault_sections",
+  "info": {
+    "displayName": "section.neovault_section"
+  },
+  "options": {},
+  "attributes": {
+    "neovault_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

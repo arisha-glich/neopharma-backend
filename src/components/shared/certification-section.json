@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_certification_sections",
+  "info": {
+    "displayName": "certification_section"
+  },
+  "options": {},
+  "attributes": {
+    "certification_section": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

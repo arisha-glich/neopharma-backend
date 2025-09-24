@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_sections_feature_lists",
+  "info": {
+    "displayName": "sections.featureList"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title_ul": {
+      "type": "string"
+    },
+    "sharedfeature": {
+      "type": "component",
+      "component": "shared.feature-list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

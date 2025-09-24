@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_blocks",
+  "info": {
+    "displayName": "blocks"
+  },
+  "options": {},
+  "attributes": {
+    "sectionscontentBlock": {
+      "type": "component",
+      "component": "section.sections-content-block",
+      "repeatable": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hasBackground": {
+      "type": "boolean"
+    },
+    "ul": {
+      "type": "component",
+      "component": "shared.feature-list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

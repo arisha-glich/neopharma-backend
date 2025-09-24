@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "platform_videos",
+  "info": {
+    "singularName": "platform-video",
+    "pluralName": "platform-videos",
+    "displayName": "platform-video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis."
+    },
+    "button": {
+      "type": "string"
+    },
+    "buttonurl": {
+      "type": "text"
+    },
+    "videos": {
+      "type": "component",
+      "component": "reusable-component.vidoes",
+      "repeatable": true
+    }
+  }
+}

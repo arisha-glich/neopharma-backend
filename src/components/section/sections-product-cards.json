@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_sections_product_cards",
+  "info": {
+    "displayName": "sections.productCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "products": {
+      "type": "component",
+      "component": "shared.products",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
