@@ -1,0 +1,37 @@
+image: node:18
+
+stages:
+  - build
+  - export
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+build_job:
+  stage: build
+  script:
+    - npm ci
+    - npm run build
+
+export_job:
+  stage: export
+  script:
+    - npm run export
+  artifacts:
+    paths:
+      - out
+    expire_in: 1 week
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "🚀 Deploying static site..."
+    # Example: deploy to GitLab Pages
+    - mv out public
+  artifacts:
+    paths:
+      - public
+  only:
+    - triggers
